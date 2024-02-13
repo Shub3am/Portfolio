@@ -1,7 +1,8 @@
 {
-  "name": "astro-portfolio-2-0",
+  "name": "Shubham-Vishwakarma",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
