@@ -6,6 +6,7 @@ import ContactsCard from "../components/ContactsCard.astro";
 import TimeZone from "../components/TimeZoneCard.astro";
 import AboutMe from "../components/AboutMe.astro";
 import Now from "../components/Now.astro";
+import Projects from "../components/Projects.astro"
 ---
 
 <script>
@@ -37,9 +38,8 @@ import Now from "../components/Now.astro";
   title="Shubham Vishwakarma - Senior Full Stack Engineer"
   description="Senior Full Stack Engineer with 6 Years of Work Experience and 4x National Hackathon Winner"
 >
-  <main
-    class="text-white m-auto p-2 grid gap-2 max-w-6xl overflow-hidden relative w-full sm:p-4 sm:gap-2 md:grid-cols-2 md:gap-3 md:p-6 lg:h-screen lg:grid-cols-4 lg:gap-4 lg:max-h-[800px]"
-  >
+  <main>
+  <div class="text-white m-auto p-2 grid gap-2 max-w-6xl overflow-hidden relative w-full sm:p-4 sm:gap-2 md:grid-cols-2 md:gap-3 md:p-6 lg:h-screen lg:grid-cols-4 lg:gap-4 lg:max-h-[800px]">
     <IntroCard />
     <AboutMe />
     <ContactsCard />
@@ -56,5 +56,7 @@ import Now from "../components/Now.astro";
         © 2023 · Engineered with ♥️ using by Shubham Vishwakarma.
       </p>
     </Card>
+  </div>
+  
   </main>
 </Layout>
