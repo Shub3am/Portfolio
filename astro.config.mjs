@@ -20,6 +20,6 @@ export default defineConfig({
     solidJs(),
     UnoCSS({ injectReset: true }),
   ],
-  output: "server",
+  output: 'static',
   adapter: netlify(),
 });
